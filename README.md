@@ -32,7 +32,7 @@ pip install -U cookiecutter
 # 使用 cookiecutter 加载项目模板，生成项目
 # 回车运行的时候，需要根据提示交互选择启用的功能。
 # 如果使用默认配置，则一路回车就可以。
-cookiecutter https://github.com/pyloong/cookiecutter-pythonic-project
+cookiecutter https://github.com/ddebby/cookiecutter-pythonic-project
 ```
 
 ### 详细说明
@@ -40,7 +40,7 @@ cookiecutter https://github.com/pyloong/cookiecutter-pythonic-project
 #### 创建项目
 
 ```text
-❯ cookiecutter https://github.com/pyloong/cookiecutter-pythonic-project
+❯ cookiecutter https://github.com/ddebby/cookiecutter-pythonic-project
 project_name [My Project]: 
 project_slug [my_project]: 
 project_description [My Awesome Project!]: 

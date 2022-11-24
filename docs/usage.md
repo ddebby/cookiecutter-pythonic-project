@@ -28,7 +28,7 @@ pip install -U cookiecutter
 在项目生成目录运行如下命令：
 
 ```shell
-cookiecutter https://github.com/pyloong/cookiecutter-pythonic-project
+cookiecutter https://github.com/ddebby/cookiecutter-pythonic-project
 ```
 
 这是使用 [Cookiecutter](https://github.com/cookiecutter/cookiecutter) 读取放在 Github 上的项目模板。
@@ -36,17 +36,17 @@ cookiecutter https://github.com/pyloong/cookiecutter-pythonic-project
 配置，并开启交互提示。
 
 ```text
-❯ cookiecutter https://github.com/pyloong/cookiecutter-pythonic-project
+❯ cookiecutter https://github.com/ddebby/cookiecutter-pythonic-project
 You've downloaded /home/kevin/.cookiecutters/cookiecutter-pythonic-project before. Is it okay to delete and re-download it? [yes]: 
 ```
 
 在使用 [Cookiecutter](https://github.com/cookiecutter/cookiecutter) 时，会将项目模板下载到本地作为缓存。如果不是第一次使用，
-且项目木板有更新时，建议根据提示重新下载项目模板。如果不需要可以跳过，使用上次下载的缓存记录生成项目。
+且项目模板有更新时，建议根据提示重新下载项目模板。如果不需要可以跳过，使用上次下载的缓存记录生成项目。
 
 ### 项目名称(project_name)
 
 ```text
-❯ cookiecutter https://github.com/pyloong/cookiecutter-pythonic-project
+❯ cookiecutter https://github.com/ddebby/cookiecutter-pythonic-project
 You've downloaded /home/kevin/.cookiecutters/cookiecutter-pythonic-project before. Is it okay to delete and re-download it? [yes]: 
 project_name [My Project]: Hello World
 ```
@@ -169,7 +169,7 @@ use_src_layout [y]:
 
 更多关于 Python 目录结构的内容可以阅读[项目结构](https://pyloong.github.io/pythonic-project-guidelines/guidelines/project_structure/)。
 
-### 使用 Pipenv (use_pipenv)
+### 使用 Poetry (use_poetry)
 
 ```text
 ❯ cookiecutter https://github.com/pyloong/cookiecutter-pythonic-project
